@@ -1,0 +1,300 @@
+        body {
+          background-color: #85a2c9;
+          cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFklEQVRYR9WXURLDIAhE6/0PbSdOtUpcd1Gnpv1KGpTHBpCE1/cXq+vrMph7dGvXZTtpfW10DCA5jrH1H0Jhs5E0hnZdCR+vb5S8Nn8mQCeS9BdSalYJqMBjAGzq59xAESN7VFVUgV8AZB/dZBR7QTFDCqGquvUBVVoEtgIwpQRzmANSFHgWQKExHdIrPeuMvQNDarXe6nC/AutgV3JW+6bgqQLeV8FekRtgV+ToDKEKnACYKsfZjjkam7a0ZpYTytwmgainpC3HvwBocgKOxqRjehoR9DFKNFYtOwCGYCszobeCbl26N6yyQ6g8X/Wex/rBPsNEV6qAMaJPMynIHQCoSqS9JSMmwef51LflTgCRszU7DvAGiV6mHWfsaVUAAAAASUVORK5CYII=),auto;
+        }
+
+        @font-face {
+            font-family: "Press Start 2P";
+            src: url("../fonts/PressStart2P-Regular.eot");
+            src: url("../fonts/PressStart2P-Regular.eot?#iefix") format('embedded-opentype'),
+                 url("../fonts/PressStart2P-Regular.woff2") format('woff2'),
+                 url("../fonts/PressStart2P-Regular.woff") format('woff'),
+                 url("../fonts/PressStart2P-Regular.ttf") format('truetype');
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .navbar-brand, .nav-link {
+          color:#111;
+        }
+
+        .navbar-brand {
+          text-shadow: 3px 6px 4px #000;
+          font-size: 25px;
+          color: #fff;
+        }
+
+        a.nav-link {
+            color: #111;
+            background-color: #d3d3d3;
+            margin-right: 8px;
+            border-left: 2px solid #eee;
+            border-top: 2px solid #eee;
+            outline: 2px solid #111;
+        }
+
+
+        .navbar-toggler {
+          background-color: #d3d3d3;
+          color: #111;
+          border-left: 2px solid #eee;
+          border-top: 2px solid #eee;
+          outline: 2px solid #111;
+        }
+
+        .container-fluid, .container-xl, .container-lg, .container-sm, .container {
+          font-family: 'Press Start 2P';
+        }
+
+        .explore img {
+            padding: 4px;
+            display: block;
+            max-width: 138px;
+        }
+
+        .wallet img {
+            padding: 4px;
+            display: block;
+            margin: inherit;
+            max-width: 138px;
+        }
+
+        .imgOverlay, .imgOverlayCross {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.5);
+            width: 138px;
+            color: white;
+            padding: 4px;
+            text-align: center;
+            height: 266px;
+        }
+
+        .imgOverlay i, .imgOverlayCross i {
+            position: absolute;
+            top: 90px;
+            font-size: 70px;
+            left: 35px;
+            color: #2be42b;
+        }
+
+        .imgOverlayCross i {
+            color: #e42b2b;
+        }
+
+        footer .social {
+            display: flex;
+            margin: auto;
+            width: 200px;
+            padding: 10px;
+        }
+
+        footer .social a {
+            display: block;
+            width: 40px;
+            height: 40px;
+            background-color: #6c8bb4;
+            color: #000;
+            border-radius: 3px;
+            text-align: center;
+            margin-right: 10px;
+            line-height: 35px;
+            transition: filter .2s;
+            margin: 0 auto;
+            border: 2px solid #000;
+        }
+
+        .baseArea {
+            text-align: center;
+        }
+
+        .canvasArea {
+          width: 300px;
+          height: 650px;
+          left: 50%;
+          position: absolute;
+        }
+
+        div[traittype] {
+            margin-left: 50px;
+        }
+
+        .addTrait, .removeTrait {
+          margin-left: 10px;
+        }
+
+        .traittype {
+           white-space: nowrap;
+        }
+
+        .traitDesc {
+            text-align: center;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            padding-left: 10px;
+            padding-right: 5px;
+        }
+
+        .head {
+            position:absolute;
+            left:25px;
+            z-index:0;
+        }
+
+        .body, .genitals, .dress, .accessoire, .shoes {
+            position:absolute;
+            left:-50%;
+            z-index:0;
+        }
+
+        .btn-secondary, .btn-secondary:active, .btn-secondary:focus {
+          box-shadow: none;
+          border: none;
+          background-color: #d3d3d3;
+          color: #000;
+          border-left: 2px solid #fff;
+          border-top: 2px solid #fff;
+          outline: 2px solid #000;
+        }
+
+        .btn:not(:disabled):not(.disabled), .nav-link, a {
+          cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC) 14 0,pointer;          
+        }
+
+
+        .alert {
+          padding: .3rem 1.25rem;
+        }
+
+        .alert a {
+          color: #007bff;
+        }
+
+        .alert-info, .alert-warning {
+            position: relative;
+            padding: 15px;
+            margin: 1em 0 1.6em;
+            border: 3px solid #111;
+            color: #333;
+            background: #fff;
+            outline: none;
+            text-align: center;
+        }
+
+
+       .alert-info.bubble-alert:before { 
+          content: "";
+          position: absolute;
+          bottom: -20px;
+          left: 108px;
+          border-width: 20px 16px 0;
+          border-style: solid;
+          border-color: #111 transparent;
+          display: block;
+          width: 0;
+       }
+
+       .alert-info.bubble-alert:after {
+          content: "";
+          position: absolute;
+          bottom: -15px;
+          left: 111px;
+          border-width: 15px 13px 0;
+          border-style: solid;
+          border-color: #fff transparent;
+          display: block;
+          width: 0;
+       }
+
+      .retro-nav {
+          background-color: #a8a8a8;
+          border-top: 1px solid #fff;
+          outline: 2px solid #000;
+          border-left: 1px solid #fff;          
+      }      
+
+
+
+        img {
+            image-rendering: optimizeSpeed;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: -o-crisp-edges;
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: pixelated;
+            image-rendering: optimize-contrast;
+            -ms-interpolation-mode: nearest-neighbor;
+            width: 200px;
+        }
+
+        .about h5 {
+          text-decoration: underline;
+        }
+
+        .footer {
+          border-top: 3px solid #111;
+          padding-top: 12px;
+        }
+
+        a {
+          color: #ffff00;
+        } 
+
+        a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a {
+          color: #111;
+        } 
+
+        footer a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .walletHeader {
+            text-align: center;
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+
+        .generatorBox, .sistaBox {
+            background-color: #6c8bb4;
+            border-radius: 10px;
+            border-top: 2px solid #eee;
+            box-shadow: 0 0 0 2pt #000;
+        }
+
+        .searchBox {
+            font-size: 65%;
+            background-color: #d3d3d3;
+            border-top: 2px solid #eee;
+            padding-top: 12px;
+            border-left: 2px solid #eee;
+            border-radius: 10px;
+            box-shadow: 0 0 0 2pt #000;
+        }
+
+        .searchBox input {
+            max-width: 100px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+        }
+
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1250px;
+  }
+}
+
+@media (max-width: 575px) {
+  .dudeDetails {
+      margin-left: 15px;
+      font-size: 70%;
+  }
+
+  .detailPart {
+      padding-left: 25px;
+  }
+}
